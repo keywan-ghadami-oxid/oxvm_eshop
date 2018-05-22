@@ -1,2 +1,25 @@
-# Autodetect text files and force the use of LF line endings
-* text=auto eol=lf
+#keep binary files as they are
+*.eot binary
+*.ttf binary
+*.woff binary
+*.jpeg binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.png binary
+*.mp4 binary
+
+
+# Force the following filetypes to have unix eols, so Windows editors can not break them
+*.js   eol=lf
+*.less eol=lf
+*.css  eol=lf
+*.sql  eol=lf
+*.html eol=lf
+*.htm  eol=lf
+*.md   eol=lf
+*.yaml eol=lf
+*.sh   eol=lf
+*.php  eol=lf
+*.svg  eol=lf
+*.tpl  eol=lf
